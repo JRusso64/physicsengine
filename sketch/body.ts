@@ -1,4 +1,4 @@
-import { Vector } from './vector.ts'
+import { Vector } from './vector'
 
 export class Body{
   position: Vector
