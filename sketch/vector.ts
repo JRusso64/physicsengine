@@ -11,4 +11,8 @@ export class Vector{
     this.y = y;
 
   }
+
+  add(force: Vector){
+    return new Vector(this.x + force.x, this.y + force.y);
+  }
 }

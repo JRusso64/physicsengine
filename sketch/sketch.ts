@@ -7,6 +7,18 @@ var sketch = (p: p5) => {
   let frameStart = 0;
   let accumulator = 0;
 
+  const bodies: Body[] = [];
+
+  const gravity = new Vector(0, 100);
+
+  function testScene() {
+    const width = p.width;
+    const heigh = p.height;
+    const random = p.random;
+    
+
+  }
+
   p.setup = () => {
     p.createCanvas(600, 600);
   };

@@ -7,6 +7,9 @@ var Vector = (function () {
         this.x = x;
         this.y = y;
     }
+    Vector.prototype.add = function (force) {
+        return new Vector(this.x + force.x, this.y + force.y);
+    };
     return Vector;
 }());
 exports.Vector = Vector;
